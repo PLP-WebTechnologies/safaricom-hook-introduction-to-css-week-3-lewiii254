@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics - Inline, Internal, and External</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        /* Internal CSS: Style three elements */
+        h1 {
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+        }
+        #para {
+            font-size: 18px;
+            line-height: 1.6;
+            background-color: aqua;
+            text-align: center;
+            border-radius: 10%;
+            padding: 10px;
+            margin: 20px;
+        }
+        .box {
+            border: 2px solid #008080;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS: Change text color -->
+    <h1 style="color: #ff4500;">Welcome to CSS Styling</h1>
+
+    <!-- Internal CSS applied -->
+    <div id="para">
+        I'm MarklewisHello! My name is Marklewis Mutugi, and i'm a passionate Web Developer specializing in full-stack development. I thrive on creating innovative web solutions that not only look stunning but also deliver seamless From crafting dynamic front-end experience to building robust back-end systems. <br><br>
+        I aim to bring ideas to life with code.
+        My journey as a developer is fueled by a love for problem-solving and a deep curiosity about how technology can transform the way we live and work. <br><br>
+        Whether it's collaborating on ambitious Projects or finding elegant solutions to complex challenges, I'm always eager to push the boundaries of what's possible.
+        When I'm not immersed in code, you can find me exploring new design trends, refining my skills,or brainstorming creative ideas for future Projects.Oh, and here's a fun fact about me: I once built a web app just to organize my favorite snacks--because everything deserves a bit of order,even snacks!
+        Let's create something amazing together!</div>
+    <div class="box">
+        This is a box styled using internal CSS for borders and padding.
+    </div>
+
+    <!-- Links styled in external CSS -->
+    <a href="https://www.example.com" target="_blank">Visit Example</a>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS basiscs</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS (optional) -->
+
+    <style>
+        /*element selector */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+        }
+        /* Element Selector*/
+        header, footer {
+          background: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1rem 0;
+        }
+
+        /* Class selector formating a heading */
+        .highlight{
+            color:blue;
+            font-size: 500;
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
+        /*element selector*/
+        nav ul {
+          list-style: none;
+          padding: 0;
+        }
+        nav ul li {
+          display: inline;
+          margin: 0 10px;
+        }
+        nav ul li a {
+          color: #fff;
+          text-decoration: none;
+        }
+        section {
+          padding: 2rem;
+          text-align: center;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        footer {
+          margin-top: 20px;
+        }
+
+        /*ID SEECTOR*/
+
+        #contact{
+            position: relative;
+            align-items: center;
+            text-align: center;
+            border-radius: 10%;
+            background-color: burlywood;
+        }
+        #list{
+        text-align: center;
+        }
+      </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="highlight">Welcome to My Basic Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>Currently learning css</p>
+        <p>HTML stands for HyperText Markup Language, and it is the standard language for creating web pages.</p>
+        <p>HTML is made up of various elements like headings, paragraphs, links, and more!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Here is a bit of information about me.</p>
+        <ul id="list">
+            <li>Name: Lewis</li>
+            <li>Profession: Web Developer</li>
+            <li>Hobbies: Coding, Reading, Traveling</li>
+        </ul>
+        <img src="profile.jpg" alt="my picture" width="200">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 marklewis</p>
+    </footer>
+
+</body>
+
+</html>

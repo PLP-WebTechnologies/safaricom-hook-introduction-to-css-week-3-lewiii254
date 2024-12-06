@@ -1,0 +1,20 @@
+
+/* External CSS: Change the background color of the webpage */
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links with hover effects */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

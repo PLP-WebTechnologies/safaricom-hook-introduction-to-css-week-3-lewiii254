@@ -1,0 +1,23 @@
+*,*::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .maindiv{
+        width: 30%;
+        height: 70%;
+        background-color: antiquewhite;
+        padding: 30px;
+        border-radius: 4px;
+    }
+    button{
+        background-color: cadetblue;
+        border-radius: 10%;
+        
+    }
